@@ -3,8 +3,6 @@
 
 JaggeryGaurd is an interactive dashboard for exploring jaggery quality non-compliance risk using information associated with the FSSAI *Pan India Jaggery Surveillance 2022* report. It combines risk visualisation, a sample risk calculator, model-comparison charts, and feature-importance analysis in one interface.
 
-> **Important:** The dashboard's dataset is reconstructed from published summary information rather than original sample-level laboratory records. Any illustrative model metrics or risk estimates shown in the dashboard are not independently validated results and must not be treated as laboratory findings or food-safety guarantees.
-
 ## Features
 
 - **Interactive state-wise risk map** to explore predicted risk across Indian states and union territories.
