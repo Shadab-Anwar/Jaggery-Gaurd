@@ -29,8 +29,6 @@ The dashboard represents 3,060 samples using a breakdown by jaggery type and for
 | Palm | Solid | 609 |
 | **Total** | | **3,060** |
 
-The dashboard is intended for exploratory analysis. Because the underlying rows are reconstructed from summary tables, they may not preserve the original sample-level relationships in the surveillance data.
-
 ## Machine Learning Workflow
 
 The dashboard presents concepts used in a non-compliance classification workflow:
@@ -51,8 +49,6 @@ The dashboard presents concepts used in a non-compliance classification workflow
 - Gradient Boosting
 - XGBoost
 - Support Vector Machine (SVM)
-
-**Metric note:** Displayed scores should be considered illustrative unless they are replaced with metrics produced by actual model training and evaluation on a documented, held-out dataset.
 
 ## Technology Stack
 
@@ -103,14 +99,6 @@ jaggeryguard/
 - Demonstrating classification metrics and model explainability
 - Prototyping a decision-support interface for food-quality monitoring
 
-## Limitations
-
-- The dataset is reconstructed from published summary tables, not original laboratory records.
-- The dashboard does not contain verified sample-level measurements for moisture, sucrose, colour, contaminants, or other laboratory properties.
-- A risk score is not proof that a sample is compliant or non-compliant.
-- The displayed model metrics and explanations require verification against actual training and evaluation outputs.
-- The dashboard should not be used for regulatory, commercial, or food-safety decisions.
-
 ## Future Research
 
 Potential extensions include obtaining genuine sample-level laboratory data, incorporating physicochemical measurements, evaluating models with geographically independent test data, calibrating predicted probabilities, and validating the approach on new market samples.
@@ -118,13 +106,8 @@ Potential extensions include obtaining genuine sample-level laboratory data, inc
 ## Author
 
 **Shadab Anwar**  
-Food Process Engineering  
 National Institute of Technology Rourkela
 
 ## Data Source
 
 Food Safety and Standards Authority of India (FSSAI), *Pan India Jaggery Surveillance 2022*.
-
-## Disclaimer
-
-JaggeryGaurd is an educational and exploratory project. It is not an official FSSAI product. Predictions and visualisations should not be interpreted as laboratory results, regulatory assessments, or food-safety guarantees.
